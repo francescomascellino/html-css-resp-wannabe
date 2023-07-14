@@ -129,23 +129,15 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* TABLET */
-
+/* LARGER SCREENS */
 @media screen and (min-width: 769px) {
-
-    /* * {
-        border: 1px solid red;
-    } */
     .container {
         width: 100%;
     }
 }
 
+/* TABLET */
 @media screen and (max-width: 768px) {
-
-    /* * {
-        border: 1px solid red;
-    } */
     .container {
         width: 100%;
     }
