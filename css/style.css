@@ -156,7 +156,6 @@ img {
 
     .row {
         flex-direction: column;
-        align-items: center;
     }
 
     p.text {
@@ -167,12 +166,19 @@ img {
         width: 100%;
     }
 
+    .steps {
+        margin: 0 auto;
+        padding: 3rem 0 0;
+    }
+
     .steps .col {
         width: 100%;
     }
 
     .why-us {
         background: #222222;
+        margin: 0 auto;
+        padding: 3rem 0;
     }
 
     .why-us .col-right {
