@@ -131,24 +131,24 @@ img {
 
 /* LARGER SCREENS */
 @media screen and (min-width: 769px) {
+
     .container {
         width: 100%;
     }
+
 }
 
 /* TABLET */
 @media screen and (max-width: 768px) {
+
     .container {
         width: 100%;
     }
+
 }
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
-
-    section {
-        border: 1px dashed blueviolet;
-    }
 
     .container {
         width: 100%;
@@ -183,4 +183,5 @@ img {
         width: 100%;
         margin-bottom: 4rem;
     }
+
 }
