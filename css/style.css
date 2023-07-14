@@ -129,17 +129,30 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-/* @media screen and (max-width: 768px) {
-    * {
+/* TABLET */
+
+@media screen and (min-width: 769px) {
+
+    /* * {
         border: 1px solid red;
+    } */
+    .container {
+        width: 100%;
     }
-} */
+}
+
+@media screen and (max-width: 768px) {
+
+    /* * {
+        border: 1px solid red;
+    } */
+    .container {
+        width: 100%;
+    }
+}
 
 /* MOBILE */
 @media screen and (max-width: 480px) {
-    * {
-        /* border: 1px solid greenyellow; */
-    }
 
     section {
         border: 1px dashed blueviolet;
