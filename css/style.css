@@ -130,7 +130,11 @@ img {
  ************************************************/
 
 /* LARGER SCREENS */
-@media screen and (min-width: 769px) {
+
+/* OLD RULE FOR REFERENCE
+@media screen and (min-width: 769px)  */
+
+@media screen and (max-width: 1160px) {
 
     .container {
         width: 100%;
